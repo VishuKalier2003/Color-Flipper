@@ -1,0 +1,58 @@
+ul {
+    display: flex;
+    /*Shorthand for flex grow, flex shrink and flex basis*/
+    flex: 0 0 0;
+    /*Property to set the Flex items from right to left*/
+    flex-flow: row-reverse nowrap;
+    margin-right: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    /*Position made relative best utilized with margins*/
+    position: relative;
+    list-style: none;
+    justify-content: start;
+    align-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-center h4 {
+    /*Position set absolute to not alter the other elements*/
+    position: absolute;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    background-color: black;
+    /*Stretching the container through the entire length of the screen*/
+    width: 100%;
+}
+
+h2 {
+    /*Relative to keep the element attached with the adjacent elements*/
+    position: relative;
+    color: white;
+    font-weight: 32px;
+    left: 40%;
+}
+
+.btn {
+    position: relative;
+    left: 45%;
+    height: 50px;
+    width: 120px;
+    border: solid darkblue 4px;
+    font-size: 1rem;
+    color: blue;
+    background-color: lightblue;
+}
